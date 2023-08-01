@@ -6,6 +6,5 @@ function changeItem(item) {
     const newName = names[randomIndex];
     const newColor = colors[randomIndex];
   
-    item.querySelector('.text').textContent = newName;
     item.style.backgroundColor = newColor;
   }
